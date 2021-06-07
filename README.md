@@ -2,23 +2,25 @@
 
 ### Stack components
 
-* Node
-* Typescript
-* React
-* Webpack
-* Babel
+-   Node
+-   Typescript
+-   React
+-   Webpack
+-   Babel
 
 ### Webpack
+
 Webpack has been initialised to handle:
- 
-* `*.module.css` files
-* images
-* typescript
-* react
-* CSS minification
+
+-   `*.module.css` files
+-   images
+-   typescript
+-   react
+-   CSS minification
 
 ### Prettier
-`
+
+```json
 {
     "singleQuote": true,
     "printWidth": 200,
@@ -30,7 +32,10 @@ Webpack has been initialised to handle:
     "jsxBracketSameLine": true,
     "semi": false
 }
-`
+```
 
-### Setup
-To setup the project, run the command `./setup.sh` in a terminal.
+### Commands
+
+-   To setup the project, run the command `./setup.sh` in a terminal.
+-   To build the project, run the command `npm run build` in a terminal.
+-   To run the project, run the command `npm run serve` in a terminal.
